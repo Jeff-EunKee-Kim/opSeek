@@ -1,0 +1,45 @@
+#progress {
+  background: url('./images/white.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#progresstitle {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgba(19, 27, 52, .9);
+  color: white;
+}
+
+#progress2 {
+  height: 80px;
+  font-size: 20px;
+  font-family: cambria;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+}
+
+#progressresults {
+  display: flex;
+  justify-content: space-around;
+}
+
+.presult {
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  color: black;
+  border-radius: 30%;
+}
+
+.grid-container{
+  display: inline-grid;
+  background-color: rgba(19, 27, 52, .9);
+}

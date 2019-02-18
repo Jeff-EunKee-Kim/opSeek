@@ -1,0 +1,56 @@
+#profpage{
+  /*background-color: rgb(223, 63, 66);*/
+  background: url('./images/back2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+
+}
+
+#pencil {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 350px
+}
+
+#fullname {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgba(255, 255, 255, .5);
+}
+
+#restofprofile {
+  padding: 20px;
+  font-size: 17px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#pref, #title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#titleandinfo, #preferencesandpref {
+  color: white;
+  padding: 10px;
+  width: 400px;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  background-color: rgba(219, 67, 74, .8);
+}
+
+#info, #prefpref {
+  margin-left: 15px;
+}

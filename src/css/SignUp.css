@@ -1,0 +1,90 @@
+#back2{
+  background: url('./images/back.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background-color: rgb(223, 63, 66);*/
+  height:100vh;
+  width: 100vw;
+}
+
+#Signup-square{
+  position: absolute;
+  margin: auto;
+  margin-top: 130px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 750px;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 7px;
+}
+
+#left-side-signup{
+  background-image: linear-gradient(#111c37, #080e1e);
+  width: 275px;
+  height: 600px;
+  border-radius: 7px 0px 0px 7px;
+  padding: 50px;
+}
+
+#right-side-signup{
+  background-color: white;
+  width: 275px;
+  height: 600px;
+  border-radius: 0px 7px 7px 0px;
+  padding: 50px;
+}
+
+#enter2{
+  font-size: 15px;
+  font-weight: normal;
+  color: rgb(145, 145, 145);
+}
+
+#name{
+  color: rgb(38, 50, 84);
+  font-size: 35px;
+}
+
+#caption {
+  color: white;
+  font-size: 35px;
+}
+
+#descriptions2{
+  display: flex;
+}
+
+.adjectives{
+  color: rgb(243, 83, 86);
+  margin: auto;
+}
+
+
+.input-bar{
+  height: 25px;
+  width: 200px;
+  background-color: rgb(243, 244, 247);
+  outline-width: 0;
+  border-color: transparent;
+}
+
+#logo {
+  padding-top: 70px;
+  height: 80px;
+  width: 80px;
+  margin-left: -20px;
+}
+
+.uandp{
+  color: rgb(145, 145, 145);
+}
+
+.linkk{
+color: rgb(0, 0, 0);
+}
